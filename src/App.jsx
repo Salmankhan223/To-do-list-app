@@ -40,7 +40,7 @@ function App() {
   }
 
   const handleDelete = (e, id) => {
-    // confirm("Are You sure to delete todo")
+     confirm("Are You sure to delete todo")
     let newTodos = todos.filter(item => {
       return item.id !== id;
     });
